@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+    color: gold;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+header {
+    text-align: center;
+    padding-top: 33px;
+    margin-bottom: 0px;
+    }
+
+main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    }
+
+body {
+    background: radial-gradient(circle,rgba(220, 220, 220, 0.39),rgb(5, 102, 81))
+}
+
+footer {
+    padding-bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    }
+ 
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  darkcyan;
+    }
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    }
+
+.tetromino {
+    background-color: darkcyan;
+}
+
+.mini-grid {
+    margin-left: 32px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkcyan;
+}
+
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+}
+
+#display {
+    padding-top: 0px;
+    padding-left: 50px;
+}
+
+#display h3 {
+    margin-top: 25px;
+}
+
+#author {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    }
+
+img {
+    height: 40px;
+    width: 40px;
+    
+}
